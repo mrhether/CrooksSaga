@@ -1,0 +1,37 @@
+0
+Florence Fiena
+What are you doing crossing these lands?
+1~Just trying to get to the other side.
+2~Step aside, we're in a hurry.
+
+1
+Florence Fiena
+We request 5 coins to cross.
+gold>4?3:4~Pay
+2~We don't have time for this, get out of my way!
+
+2
+Florence Fiena
+Give us the 5 coins or we will take it from you.
+fighters>15?5:6~Do you really think you can take my guys?
+gold>4?3:4~Pay
+
+3
+Florence Fiena
+Good Move
+10~Leave~gold-5
+
+4
+Florence Fiena
+Looks like you don't even have 5 coins.
+9~Fight~fight=true
+
+5
+Florence Fiena
+Ok, ok lets relax. You can pass.
+9~Leave
+
+6
+Florence Fiena
+Yes we do.
+10~Fight~fight=true

@@ -1,0 +1,83 @@
+0
+Samantha
+Hey good looking.
+samanthaKnowledge=true?1:10~Hey, do you have a minute?
+
+1
+Samantha
+Ok, what's on your mind?
+2~I heard you and Boyd Philip were getting a little intimate last night.
+
+2
+Samantha 
+blushes
+3~Continue~boydsAffair=true
+
+3
+Samantha
+We might have made love... oh no, please don't tell his wife!
+4~Heh, I'll decide what I do with that info.
+7~Don't worry.
+
+4
+Samantha
+Oh my goodness, you piece of garbage. Please don't tell her I will give you 5 coins please!
+5~Show me the money and I won't tell.~gold+5
+6~I can't promise that. (I can use this information to blackmail Boyd)
+
+5
+Samantha
+Fine here, I hope I never see you again.
+100~Goodbye.
+
+6
+Samantha
+Oh noo, I was just making friends in this town.
+100~That was your choice. You have to live with, sorry.~samanthaRuns=true
+
+7
+Samantha
+Thanks, I can't believe I told you.
+100~Bye!
+
+10
+Samantha
+Ok, what's on your mind?
+gold>2?11:12~I was wondering if I could buy you a drink?(3 coins)~gold-3
+14~What can you tell me about the bridge up there?
+100~Sigh, goodbye.
+
+11
+Samantha
+Why yes darling, and who might you be?
+13~Just some stranger
+
+12
+Samantha
+I would but your broke.
+100~goodbye
+16~Err, what can you tell me about the bridge up there?
+
+13
+Samantha
+Stranger eh... what are you doing in this town?
+14~Trying to cross the bridge up ahead.
+100~Finishing this conversation, goodbye.
+
+14
+Samantha
+Boyl guards that bridge, he's a sweet guy.
+15~Boyl.. sounds like you know him?
+15~Yeah that guy?
+
+15
+Samantha
+Buy me another drink and I'll let you in on another secret
+gold>2?2:12~Fine here you go(3 coins)?~gold-3
+gold>5?2:12~Take two(6 coins)?~gold-6
+100~You know nothing, goodnight.
+
+16
+Samantha
+Haha what's there to say it's a bridge
+100~I guess... goodbye.

@@ -1,0 +1,46 @@
+0
+Roger Sams
+Hey Friend can I interest you in some supplies, I don't have much but what I have is yours for some coin.
+1~Yes we could use some.
+2~I was wondering if you knew anything about the Bridge just past the Village.
+3~I have enough supplies thanks.
+
+1
+Roger Sams
+Here's what I have.
+gold>4?4:5~For 5 gold I can give you 3 supplies.
+10~Actually nevermind.
+
+2
+Roger Sams
+Boyd Philips has been holding that bridge hostage forcing travellers to pay to cross! Shady fella he is, was in here just recently drinking with some brod... Samantha was her name. If I was Boyds wife I would not be impressed.
+10~Hes married? Thanks! (I should talk to Samantha, this may be useful)~samanthaKnowledge=true
+
+4
+Roger Sams
+Here you go.
+1~Thanks~gold-5~supplies+3
+
+5
+Roger Sams
+Looks like you don't have enough money.
+10~Whoops.
+fighters>5?6:7~Then give me some supplies so I don't hurt you.
+
+6
+Roger Sams
+Ok ok fine. Just leave.
+11~Here are some supplies.~supplies+5 
+
+7
+Roger Sams
+Haha, that's funny.
+10~heh, yeah
+11~I'm gonna take them from you!~fight=true
+
+10
+Roger Sams
+Anything else?
+1~Yes we could use some supplies.
+2~I was wondering if you knew anything about the Bridge just past the Village.
+3~I have enough supplies thanks.

@@ -1,0 +1,40 @@
+0
+Jimmy Johnson
+I see you passing my humble village. We have some supplies if you are interested?
+1~Yes we could use some
+10~No but thanks for the offer
+2~Stop waisting my time
+
+1
+Jimmy Johnson
+Excellent. 
+gold>9?7:5~For ten gold I can give you five supplies?
+10~That's all thanks!
+
+7
+Jimmy Johnson
+Here are those supplies
+1~Thanks~gold-10~supplies+5
+
+2
+Jimmy Johnson
+Whoa no need to be so hostile.
+fighters>15?3:4~Give me those supplies or my team will destroy you.
+1~Just messing with you, What do you propose?
+10~Goodbye.
+
+3
+Jimmy Johnson
+Here are the supplies.
+10~Ok relax, no need to fight here is my stuff.~supplies+10
+
+4
+Jimmy Johnson
+No Chance!
+10~Leave
+
+5
+Jimmy Johnson
+Looks like you don't have enough money.
+fighters>7?3:4~Then give me some supplies so I don't hurt you.
+10~Leave
